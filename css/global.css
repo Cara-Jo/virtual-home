@@ -11,7 +11,7 @@ h1 {font-size: 3em; margin: 1em; text-align: center; font-weight: 300;}
 	#virtual-home:hover {background: url(../images/greyscale.png) no-repeat 0 0; background-size: 1441px 878px;}
 
 	.hotspot, .hotspot a {position: absolute;}
-	.hotspot a {opacity: 0; transition: opacity .5s ease-out; border: 5px solid lime; border-radius: 50%; box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,.9), 0px 0px 0px 3px rgba(255,255,255,.9), 0px 5px 0px 0px rgba(50, 50, 50, 0.2), inset 0px 5px 0px 0px rgba(50, 50, 50, 0.2);}
+	.hotspot a {cursor: help; opacity: 0; transition: opacity .5s ease-out; border: 5px solid #76BE4B;; border-radius: 50%; box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,.9), 0px 0px 0px 3px rgba(255,255,255,.9), 0px 5px 0px 0px rgba(50, 50, 50, 0.2), inset 0px 5px 0px 0px rgba(50, 50, 50, 0.2);}
 		.hotspot:hover a {opacity: 1;}
 	
 	#pool {left: 7px; top: 251px; width: 256px; height: 120px; }
@@ -60,7 +60,7 @@ h1 {font-size: 3em; margin: 1em; text-align: center; font-weight: 300;}
 		#white-van a {left: 221px; top: 50px; border-color: #76BE4B; height: 80px; width: 80px;}
 
 	#mailbox {left: 1325px; top: 530px; width: 62px; height: 89px; }
-		#mailbox a {left: -13px; top: -15px; border-color: #76BE4B; height: 75px; width: 75px;}	
+		#mailbox a {left: -13px; top: -15px; border-color: #0193D5; height: 75px; width: 75px;}	
 
 	#front-door {left: 1094px; top: 393px; width: 67px; height: 183px; }
 		#front-door a {left: 10px; top: 70px; border-color: #76BE4B; height: 60px; width: 60px;}	
@@ -84,21 +84,25 @@ h1 {font-size: 3em; margin: 1em; text-align: center; font-weight: 300;}
 		#window-ac a {left: -10px; top: 40px; border-color: #76BE4B; height: 75px; width: 75px;}
 
 
-.tooltip {background: #ffffff; border: 1px solid #d4d4d4; border-radius: 6px; width: 360px;}
+.tooltip {background: #ffffff; border: 1px solid #d4d4d4; border-radius: 6px; width: 360px;margin-bottom: 3px; box-shadow: 0 3px 0 0px rgba(0,0,0,.15);}
 
 .tip-header {padding: 15px; overflow: hidden;}
-	.tip-header .points {display: inline-block; float: right; font-size: 16px; line-height: 1.2em; padding: 5px; border: 2px solid #76BE4B; border-radius: 5px;}
+	.tip-header .points {display: inline-block; float: right; font-size: 20px; line-height: 1.2em; padding: 5px; border: 2px solid #76BE4B; border-radius: 5px;}
 	.tip-header h4 {float: left; font-weight: 300; font-size: 18px; color: #AEB3B8; line-height: 1.5em;}
 
 .tip-content {padding: 15px; padding-top: 0;}
 	.tip-content h3 {font-weight: 300; font-size: 24px; margin-bottom: 10px; line-height: 1.2em;}
 	.tip-content p {line-height: 1.2em; font-size: 14px;}
 
+.tip-ratings {padding: 15px; background: #fafafa; border-top: 1px solid #D4D4D4;text-align: center; font-size: 16px; font-weight: 300; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; box-shadow: 0 -2px 0 0px rgba(0,0,0,.04);}
+	.tip-ratings .btn {margin: 10px auto;}
+	.tip-ratings p {font-size: 14px; line-height: 1.2em;}
+		.tip-ratings p i {font-style: italic;}
+.btn, a.btn {background: #76BE4B; display: inline-block; padding: 8px 15px; font-size: 18px; line-height: 1.5em; border-radius: 5px; border: 2px solid #69AA43; color: #fafafa; font-weight: 300; text-decoration: none; box-shadow: 0 2px 0 0px rgba(0,0,0,.05);}
 
 
-
-
-
+.program .btn, .program a.btn {background: #0193D5; border-color: #0084BF;}
+.program .points {border-color: #0193D5;}
 
 
 
