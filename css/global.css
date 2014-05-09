@@ -87,13 +87,12 @@ h1 {font-size: 3em; margin: 1em; text-align: center; font-weight: 300;}
 .tooltip {background: #ffffff; border: 1px solid #d4d4d4; border-radius: 6px; width: 360px;}
 
 .tip-header {padding: 15px; overflow: hidden;}
-	.tip-header .points {display: inline-block; float: right; padding: 5px; border: 2px solid #76BE4B; border-radius: 5px;}
-	.tip-header h4 {float: left; font-weight: 300; font-size: 18px; color: #AEB3B8;}
+	.tip-header .points {display: inline-block; float: right; font-size: 16px; line-height: 1.2em; padding: 5px; border: 2px solid #76BE4B; border-radius: 5px;}
+	.tip-header h4 {float: left; font-weight: 300; font-size: 18px; color: #AEB3B8; line-height: 1.5em;}
 
-.tip-content {padding: 15px;}
-	.tip-content h3 {font-weight: 300; font-size: 24px; margin-bottom: 10px;}
-	.tip-content p {line-height: 1.2em;}
-
+.tip-content {padding: 15px; padding-top: 0;}
+	.tip-content h3 {font-weight: 300; font-size: 24px; margin-bottom: 10px; line-height: 1.2em;}
+	.tip-content p {line-height: 1.2em; font-size: 14px;}
 
 
 
