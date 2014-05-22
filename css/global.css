@@ -5,7 +5,25 @@
 */
 body {font-family: "Open Sans", helvetica, arial, verdana, sans-serif; color: #656771;}
 
-h1 {font-size: 3em; margin: 1em; text-align: center; font-weight: 300;}
+#masthead {height: 100px; background: #ffffff; position: fixed; top: 0; width: 100%; box-shadow:0px 0px 4px 1px rgba(0,0,0,.15); z-index: 9000; overflow: hidden;}
+	#masthead #brand {background: url(../images/sdge-connected-logo.svg) no-repeat top left; background-size: 300px 65px; height: 65px; width: 300px; text-indent: -9000px; float: left; margin: 1em; }
+	#masthead #top-level {float: right; width: auto;}
+		#masthead #top-level li {float: left; width: auto; height: 100px; margin: 0 .25em; border-top: 5px solid #ffffff;}
+			#masthead #top-level li a {display: block; height: 100%; width: 100%; padding: 2em .5em 1em .5em; text-decoration: none; color: #656771;}
+		#masthead #top-level #profile {border-left: 1px solid #eeeeee; padding: 1.5em .5em 1em .5em; width: 175px;}
+		#masthead #top-level #profile img {height: 32px; width: 32px; border-radius: 50%; float: left; margin: .25em;}
+
+#section-nav {background: #0193D5; color: #fafafa; text-shadow: 0 1px 1px rgba(0,0,0,.3); margin-top: 100px; height: 54px; padding: 1em;}
+	#section-nav h2 {float: left; width: auto; font-size: 36px; font-weight: 700; line-height: 54px; text-shadow: 1px 0px 5px rgba(0,0,0,.3);}
+		#section-nav h2 .icon {height: 36px; width: 33px; background: url(../images/icon-rewards.svg) 0px 3px; background-size: 33px 36px; display: inline-block; margin: 0em .25em 0 0;}
+	#section-nav #sub {float: right; width: auto;}
+		#section-nav #sub li {float: left; width: auto; margin: .75em .3em;}
+			#section-nav #sub a {display: block; padding: .5em 1em; color: #fafafa; text-decoration: none; transition: background .5s linear;}
+				#section-nav #sub .active a {background: rgba(0,0,0,.15);}
+				#section-nav #sub a:hover {background: rgba(0,0,0,.2);}
+				#section-nav #sub li.highlight a {background: #76BE4B;}
+
+#main-content {margin-top: 2em;}
 
 #virtual-home {background: url(../images/fullcolor2x.png) no-repeat 0 0; background-size: 1000px 612px; width: 1000px; height: 612px; margin: 0 auto; position: relative; transition: background .5s linear;}
 	#virtual-home:hover {background: url(../images/greyscale2x.png) no-repeat 0 0; background-size: 1000px 612px;}
