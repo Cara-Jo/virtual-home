@@ -7,15 +7,15 @@ body {font-family: "Open Sans", helvetica, arial, verdana, sans-serif; color: #6
 
 h1 {font-size: 3em; margin: 1em; text-align: center; font-weight: 300;}
 
-#virtual-home {background: url(../images/fullcolor.png) no-repeat 0 0; background-size: 1441px 878px; width: 1441px; height: 878px; margin: 0 auto; position: relative; transition: background .5s linear;}
-	#virtual-home:hover {background: url(../images/greyscale.png) no-repeat 0 0; background-size: 1441px 878px;}
+#virtual-home {background: url(../images/fullcolor2x.png) no-repeat 0 0; background-size: 1000px 612px; width: 1000px; height: 612px; margin: 0 auto; position: relative; transition: background .5s linear;}
+	#virtual-home:hover {background: url(../images/greyscale2x.png) no-repeat 0 0; background-size: 1000px 612px;}
 
 	.hotspot, .hotspot a {position: absolute;}
-	.hotspot a {cursor: help; opacity: 0; transition: opacity .5s ease-out; border: 5px solid #76BE4B;; border-radius: 50%; box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,.9), 0px 0px 0px 3px rgba(255,255,255,.9), 0px 5px 0px 0px rgba(50, 50, 50, 0.2), inset 0px 5px 0px 0px rgba(50, 50, 50, 0.2);}
+	.hotspot a {cursor: help; opacity: 0; transition: opacity .5s ease-out; border: 5px solid #76BE4B;; border-radius: 50%; box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,.9), 0px 0px 0px 3px rgba(255,255,255,.9), 0px 5px 0px 0px rgba(0,0,0,.2), inset 0px 5px 0px 0px rgba(0,0,0,.2);}
 		.hotspot:hover a {opacity: 1;}
-	
-	#pool {left: 7px; top: 251px; width: 256px; height: 120px; }
-		#pool a {left: 120px; top: 5px;height: 75px; width: 75px; border-color: #76BE4B;}
+
+	#pool {left: 4px; top: 174px; width: 176px; height: 86px; }
+		#pool a {left: 70px; top: 5px;height: 40px; width: 40px; border-color: #76BE4B;}
 
 	#hot-tub {left: 19px; top: 371px; width: 163px; height: 124px; }
 		#hot-tub a {left: 25px; top: 20px; border-color: #76BE4B; height: 75px; width: 75px;}
@@ -31,39 +31,39 @@ h1 {font-size: 3em; margin: 1em; text-align: center; font-weight: 300;}
 
 	#central-ac {left: 393px; top: 575px; width: 120px; height: 127px; }
 		#central-ac a {left: 25px; top: 15px; border-color: #76BE4B; height: 60px; width: 60px; }
-	
+
 	#tv {left: 501px; top: 395px; width: 200px; height: 144px; }
 		#tv a {left: 55px; top: 20px; border-color: #76BE4B; height: 75px; width: 75px;}
 
 	#ceiling-fan {left: 588px; top: 278px; width: 134px; height: 97px; }
-		#ceiling-fan  a {left: 25px; top: 25px; border-color: #76BE4B; height: 75px; width: 75px;}		
+		#ceiling-fan  a {left: 25px; top: 25px; border-color: #76BE4B; height: 75px; width: 75px;}
 
 	#thermostat {left: 715px; top: 379px; width: 35px; height: 60px; }
-		#thermostat a {left: -10px; top: 0px; border-color: #76BE4B; height: 40px; width: 40px;}		
+		#thermostat a {left: -10px; top: 0px; border-color: #76BE4B; height: 40px; width: 40px;}
 
 	#floor-lamp {left: 764px; top: 481px; width: 69px; height: 118px; }
-		#floor-lamp a {left: 0px; top: -10px; border-color: #76BE4B; height: 60px; width: 60px;}		
+		#floor-lamp a {left: 0px; top: -10px; border-color: #76BE4B; height: 60px; width: 60px;}
 
 	#fridge {left: 763px; top: 333px; width: 55px; height: 143px; }
-		#fridge a {left: 0px; top: 30px; border-color: #76BE4B; height: 60px; width: 60px;}		
+		#fridge a {left: 0px; top: 30px; border-color: #76BE4B; height: 60px; width: 60px;}
 
 	#dishwasher {left: 861px; top: 390px; width: 42px; height: 60px; }
-		#dishwasher a {left: -15px; top: -5px; border-color: #76BE4B; height: 60px; width: 60px;}	
+		#dishwasher a {left: -15px; top: -5px; border-color: #76BE4B; height: 60px; width: 60px;}
 
 	#coffee-pot {left: 864px; top: 343px; width: 42px; height: 60px; }
-		#coffee-pot a {left: -5px; top: -5px; border-color: #76BE4B; height: 40px; width: 40px;}	
+		#coffee-pot a {left: -5px; top: -5px; border-color: #76BE4B; height: 40px; width: 40px;}
 
 	#electronic-meter {left: 979px; top: 476px; width: 60px; height: 53px; }
-		#electronic-meter a {left: -5px; top: -10px; border-color: #76BE4B; height: 60px; width: 60px;}		
+		#electronic-meter a {left: -5px; top: -10px; border-color: #76BE4B; height: 60px; width: 60px;}
 
 	#white-van {left: 995px; top: 583px; width: 348px; height: 294px; }
 		#white-van a {left: 221px; top: 50px; border-color: #76BE4B; height: 80px; width: 80px;}
 
 	#mailbox {left: 1325px; top: 530px; width: 62px; height: 89px; }
-		#mailbox a {left: -13px; top: -15px; border-color: #0193D5; height: 75px; width: 75px;}	
+		#mailbox a {left: -13px; top: -15px; border-color: #0193D5; height: 75px; width: 75px;}
 
 	#front-door {left: 1094px; top: 393px; width: 67px; height: 183px; }
-		#front-door a {left: 10px; top: 70px; border-color: #76BE4B; height: 60px; width: 60px;}	
+		#front-door a {left: 10px; top: 70px; border-color: #76BE4B; height: 60px; width: 60px;}
 
 	#ev-charger {left: 1237px; top: 343px; width: 78px; height: 117px; }
 		#ev-charger a {left: 29px; top: -5px; border-color: #76BE4B; height: 50px; width: 50px;}
@@ -103,25 +103,3 @@ h1 {font-size: 3em; margin: 1em; text-align: center; font-weight: 300;}
 
 .program .btn, .program a.btn {background: #0193D5; border-color: #0084BF;}
 .program .points {border-color: #0193D5;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
